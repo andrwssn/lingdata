@@ -7,13 +7,11 @@
 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="description" content="Личная страница и контакты">
 
-		<!-- Bootstrap Core CSS -->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	</head>
 	
 	<body>
 
-		<!-- Меню (navigation bar) -->
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
 			<div class="container"> 
 				<div class="navbar-header"> 
@@ -28,64 +26,62 @@
 			</div>
 		</nav>
 
-		<header style="background-color:lightblue; padding-top:70px; "> 
+		<header style="background-color: #1a2b4c; padding-top:90px; padding-bottom: 30px;"> 
 			<div class="container"> 
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<br><br>
-						<h1>Виктория Михеева</h1>
-						<hr> 
-						<p><i>Человек, умеющий(вроде) <b>создавать HTML</b></i></p> 
+						<h1 style="color: #ffffff; font-weight: bold;">Виктория Михеева</h1>
+						<hr style="border-top: 2px solid #c92a2a; width: 100px; align: left; margin-left: 0;"> 
+						<p style="color: #bdc3c7;"><i>Человек, умеющий(вроде) <b>создавать HTML</b> 🕷️</i></p> 
 					</div>
-					<div class="col-md-4">
-						<img src="myphoto.jpg" style="height:320px; margin:20px 20px 40px 20px; border-radius: 4px;" alt="Моя фотография">
+					<div class="col-md-6" style="text-align: center;">
+						<img src="myphoto.jpg" style="height:280px; margin:20px; padding: 10px; background: white; border: 1px solid #ccc; box-shadow: 0 4px 10px rgba(0,0,0,0.3);" alt="Моя фотография">
 					</div>
 				</div>
 			</div>
 		</header>
 
 		<!-- Основная часть страницы -->
-		<section id="portfolio">
+		<section id="portfolio" style="padding-top: 30px;">
 			<div class="container">
+				<div class="row">
 
-				<!-- Первый столбец (Ширина 3) -->
-				<div class="col-md-3">
-					<article>
-						<h3>Место учебы</h3>
-						<p>Фундаментальная и компьютерная лингвистика (ФКЛ), НИУ ВШЭ, Москва</p>
-					</article>
-					<article>
-						<h3>Родной город</h3>
-						<p>Раменское</p>
-					</article>
-					<article>
-						<h3>Школа</h3>
-						<p>Гимназия №7</p>
-					</article>
-				</div>
+					<!-- Первый столбец (Ширина 3) -->
+					<div class="col-md-3">
+						<h3 style="color: #c92a2a; font-weight: bold;">📝 Карточка</h3>
+						<hr style="border-top: 1px solid #c92a2a;">
+						<p><b>Место учебы:</b><br>Фундаментальная и компьютерная лингвистика (ФКЛ), НИУ ВШЭ, Москва</p>
+						<p><b>Родной город:</b><br>Раменское</p>
+						<p><b>Школа:</b><br>Гимназия №7</p>
+					</div>
 
-				<div class="col-md-6">
-					<article>
-						<h3>Немного обо мне</h3>
+					<!-- Второй столбец (Ширина 6) -->
+					<div class="col-md-6" style="border-left: 1px solid #eee; border-right: 1px solid #eee; padding-left: 25px; padding-right: 25px;">
+						<h3 style="color: #c92a2a; font-weight: bold;">🕸️ Немного обо мне</h3>
+						<hr style="border-top: 1px solid #c92a2a;">
 						<p>Привет! Теперь я первокурсница Вышки, и это звучит одновременно гордо и немного пугающе. Я выбрала программу «Фундаментальная и компьютерная лингвистика», потому что язык кажется мне удивительной кодовой системой, которую безумно интересно расшифровывать с помощью программирования и анализа данных.</p>
 						
 						<p>Первые недели учебы выдались по-настоящему огненными. Нагрузка здесь серьезная, а дискретная математика временами заставляет мой мозг сопротивляться. Но я верю, что это временные трудности адаптации. В свободное время я люблю смотреть Scooby Doo и ни о чем не думать. Всем, кто дочитал до этой строчки, хочется пожелать от всей души добра и удачи. Знайте, что все обязательно будет хорошо!</p>
-					</article>
-				</div>
+					</div>
 
-				<div class="col-md-3">
-					<h3>Я в соцсетях</h3>
-					<ul>
-						<li><a href="https://t.me/andrwssn" target="_blank">Telegram</a></li>
-						<li><a href="https://github.com/andrwssn" target="_blank">GitHub</a></li>
-					</ul>
+					<!-- Третий столбец (Ширина 3) -->
+					<div class="col-md-3">
+						<h3 style="color: #c92a2a; font-weight: bold;">💻 Контакты</h3>
+						<hr style="border-top: 1px solid #c92a2a;">
+						<ul style="list-style-type: none; padding-left: 0;">
+							<li style="margin-bottom: 10px;">💬 <a href="https://t.me/andrwssn" target="_blank">@andrwssn в Telegram</a></li>
+							<li style="margin-bottom: 10px;">🕷️ <a href="https://github.com/andrwssn" target="_blank">andrwssn на GitHub</a></li>
+						</ul>
+					</div>
+
 				</div>
 			</div>
 		</section>
 
-		<footer class="bs-docs-footer"> 
+		<footer class="bs-docs-footer" style="margin-top: 50px; padding: 20px 0; border-top: 1px solid #eee;"> 
 			<div class="container"> 
-				<p style="text-align:right; ">&copy; В. Михеева, 2026</p> 
+				<p style="text-align:right; color: #777;">&copy; В. Михеева, 2026</p> 
 			</div>
 		</footer>
 	</body>
